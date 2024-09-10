@@ -1,0 +1,7 @@
+\center$\bm{M}(\vec{\theta})\dfrac{\dd\vec{\omega}}{\dd t} = \vec{T} - h(\vec{\theta}, \vec{\omega})-\bm{J}^\top (\vec{\theta})\vec{F}$\\
+$\bm{M}$: Mass matrix of the whole system\\
+$\vec{T}$: motor torques, $\vec{F}$: force applied on load\\
+$h$: centrifugal and coriolis force, a function of configuration $\vec{\theta}$ and angular speed $\vec{\omega}$\\
+$\bm{M} = \begin{pmatrix} \mathrm{I_M} & 0 \\ 0 & \mathrm{I_M} \end{pmatrix} + \bm{M_L}(\vec{\theta})$\\
+$\mathrm{I_M}$: moment of inertia of a motor and inner bar\\
+$\bm{M_L}$: load mass matrix, a function of configuration $\vec{\theta}$
